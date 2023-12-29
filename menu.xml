@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="https://openbox.org/" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="/usr/share/openbox/menu.xsd">
+    <menu id="root-menu" label="Openbox 3">
+        <item label="Run Program">
+            <action name="Execute">
+                <execute>
+                    gmrun
+                </execute>
+            </action>
+        </item>
+        <separator/>
+        <item label="Terminal">
+            <action name="Execute">
+                <execute>
+                    xterm
+                </execute>
+            </action>
+        </item>
+  </menu>
+</openbox_menu>
